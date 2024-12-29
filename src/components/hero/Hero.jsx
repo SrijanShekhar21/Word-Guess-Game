@@ -86,7 +86,8 @@ const Hero = () => {
   ];
 
   const [word, setWord] = useState(
-    words[Math.floor(Math.random() * words.length)]
+    // words[Math.floor(Math.random() * words.length)]
+    "MAKE"
   );
 
   const totalGuess = 8;

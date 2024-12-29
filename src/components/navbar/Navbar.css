@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* border: 2px solid red; */
+  margin-top: 1rem;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.help-btn {
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  /* border: 2px solid red; */
+  margin-left: 1rem;
+}
+
+.help-btn:hover {
+  background-color: #777;
+}
