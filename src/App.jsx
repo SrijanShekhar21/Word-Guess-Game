@@ -8,6 +8,7 @@ const App = () => {
     <div className="app">
       <Navbar />
       <Hero />
+      <p className="footer">Made by Srijan Shekhar</p>
     </div>
   );
 };
